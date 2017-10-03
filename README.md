@@ -12,16 +12,16 @@ Use npm install <name of the module thats missing> -i
   How do I run my bot?
   There are 2 methods:
   Method 1:
+ 
+ 1. Make a text file with whatever name
+ 
+ 2. Type in it "node app.js"
+ 
+ 3.Save the text file as a .bat file
+ 
+ 4.Put it in the folder where there are all the containings of this repository.
   
-  1. Make a text file with whatever name
-  
-  2. Type in it "node app.js"
-  
-  3.Save the text file as a .bat file
-  
-  4.Put it in the folder where there are all the containings of this repository.
-  
-  5.Run it when you want to start
+ 5.Run it when you want to start
   
   
   Method 2:
