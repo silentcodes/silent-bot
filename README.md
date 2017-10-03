@@ -1,4 +1,9 @@
 # silent-bot
+PLEASE NOTE!
+This is the 1.0.0 version of the bot.
+Latest versions were deleted, due to formatting the system.
+
+
 A moderation discord bot with open source!
 Be sure to:
 -change the ownerid in the settings.json file
@@ -11,6 +16,7 @@ Use npm install (name of the module thats missing) -i
   
   How do I run my bot?
   There are 2 methods:
+  
   Method 1:
  
  1. Make a text file with whatever name
