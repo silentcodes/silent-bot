@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
   .setColor(0x00AE86)
   .setTimestamp()
-  .setDescription(`**Action:** Warning\n**User:** ${user.tag}\n**Moderator:** ${message.author.tag}\n**Reason:** ${reason}`);
+  .setDescription(`**Action:** Warning\n**Target:** ${user.tag}\n**Moderator:** ${message.author.tag}\n**Reason:** ${reason}`);
   return client.channels.get(modlog.id).send({embed});
 };
 
@@ -22,6 +22,6 @@ exports.conf = {
 
 exports.help = {
   name: 'warn',
-  description: 'Gives a warning to the mentioned person',
+  description: 'Issues a warning to the mentioned user.',
   usage: 'warn [mention] [reason]'
 };
