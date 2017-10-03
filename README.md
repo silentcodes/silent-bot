@@ -7,7 +7,7 @@ Be sure to:
 
 
 If your bot can't run because there are some modules missing:
-Use npm install <name of the module thats missing> -i 
+Use npm install (name of the module thats missing) -i 
   
   How do I run my bot?
   There are 2 methods:
